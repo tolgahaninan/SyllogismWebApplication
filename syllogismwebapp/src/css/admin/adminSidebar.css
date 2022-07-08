@@ -1,0 +1,78 @@
+.adminSidebarWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 899px;
+    background-color: #1e1f29;
+}
+
+.adminSidebarProfileInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+    max-width: 360px;
+    margin-left: 20px;
+}
+.adminSidebarProfilePhoto {
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
+}
+.adminSidebarStatus {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    align-items: center;
+    margin-top: 5px;
+
+}
+.adminSidebarUsername,
+.adminSidebarStatusText{
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    max-width: 240px;
+    margin-left: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+   
+}
+.adminSidebarStatusShape {
+    width: 16px;
+    height: 16px;
+    border-radius: 20px;
+    background-color: green;
+}
+
+.adminSidebarOptionsWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 600px;
+    
+}
+.adminSidebarOptionList {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 360px;
+    margin-top: 20px;
+
+}
+.adminSidebarOptionListSingleOption {
+    display: flex;
+    align-items: center;
+    width: 360px;
+    height: 50px;
+    padding-left: 20px;
+    color:#fff;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  
+}
+.adminSidebarOptionListSingleOption i  {
+    margin-right: 15px;
+    color: #fff;
+}

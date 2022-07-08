@@ -1,0 +1,161 @@
+.headerWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 140px;
+}
+
+.headerTopSection {
+    width: 100%;
+    height: 40px;
+    background-color: #1e1f29;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerBottomSection {
+    width: 100%;
+    height: 100px;
+    background-color: #15161D;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.headerTopLeft,
+.headerTopRight {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 600px;
+ 
+}
+.headerTopLeftContact,
+.headerTopRightUser {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 40px;
+}
+.headerTopLeftContactPhone,
+.headerTopLeftContactMail,
+.headerTopLeftContactAddress,
+.headerTopRightRegister,
+.headerTopRightLogin,
+.headerTopRightLogout {
+    height: 20px;
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    margin-right: 15px;
+    
+}
+.headerTopRightUser{
+    justify-content: flex-end;
+}
+
+.headerLogo {
+    height: 70px;
+    width: 290px;
+    font-size: 48px;
+    color: #fff!important;
+}
+
+.headerFavouritesImg,
+.headerCartImg {
+    width: 24px;
+    height: 24px;
+}
+.headerSearchBar{
+    width: 555px;
+   height: 70px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.headerTopSection li i {
+    color: #d10024;
+    margin-right: 5px;
+}
+
+.headerBottomSection i {
+    color: #fff;
+}
+
+.headerFavourites,
+.headerCart {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.headerFavourites span,
+.headerCart span {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+}
+
+.headerSearchBarInputField {
+    height: 40px;
+    padding: 0 15px;
+    border: 1px solid #e4e7ed;
+    background-color: #fff;
+    
+}
+.headerSearchBarSubmitButton {
+    height: 40px;
+    width: 100px;
+    background: #d10024;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    border-radius: 0 40px 40px 0;
+}
+.headerSearchBarCategorySelect {
+    padding: 0 15px;
+    background: #fff;
+    border: 1px solid #e4e7ed;
+    height: 40px;
+    border-radius: 40px 0 0 40px;
+}
+
+.headerBottomButtonWrapper {
+    width: 292.5px;
+    height: 70px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.headerLogoutButton {
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    border:none;
+    color:#fff;
+}

@@ -1,0 +1,87 @@
+.registerModalWrapperBackground {
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerModalWrapper {
+  width: 360px;
+  height: 407px;
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%),
+    #010101;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.registerWrapperCloseButton {
+  width: 35px;
+  height: 35px;
+  background-color: #ffffff;
+  border: 1px solid #747a9c;
+  border-radius: 35px;
+  position: relative;
+  left: 180px;
+  top: -57px;
+  padding: 0px;
+  z-index: 1;
+}
+.registerModalForm {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #ffffff;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.registerModalFormCreateButton {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #d10024;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.registerModalFormCreateButton button:hover,
+.registerModalFormCreateButton:active,
+.registerModalFormCreateButton:focus {
+  background: #43a047;
+}
+
+.registerModalForm input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.registerModalFormRedirectMessage {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.registerModalFormRedirectMessage a {
+  color: #d10024;
+  text-decoration: none;
+}

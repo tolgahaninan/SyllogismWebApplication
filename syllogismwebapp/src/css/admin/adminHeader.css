@@ -1,0 +1,43 @@
+.adminHeaderWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: #15161D;
+}
+
+.adminPanelLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 280px;
+    font-size: 48px;
+    color: #fff;
+}
+.adminProfileInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.adminProfilePhoto {
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
+}
+.adminUsername {
+    font-size: 16px;
+    color: #fff;
+    max-width: 320px;
+    margin-left: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

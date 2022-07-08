@@ -1,0 +1,26 @@
+.maxWidthWrapperRow {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.maxWidthWrapperCol {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+body ol,ul,dl{
+    padding:0px!important;
+    margin: 0px!important;
+    list-style-type: none;
+}
+li {
+text-decoration: none;
+}
+h3 {
+    margin: 0px!important;
+}
+body a {
+    text-decoration: none;
+}

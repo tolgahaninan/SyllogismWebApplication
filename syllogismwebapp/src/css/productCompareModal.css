@@ -1,0 +1,62 @@
+.productCompareModalWrapperBackground {
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .productCompareModalWrapper {
+    background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%),
+      #010101;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    min-width: 500px;
+  }
+
+  .productCompareModalCloseButton {
+    width: 35px;
+    height: 35px;
+    background-color: #ffffff;
+    border: 1px solid #747a9c;
+    border-radius: 35px;
+    position: relative;
+    align-self: flex-start;
+    margin-left: auto;
+    padding: 0px;
+    z-index: 1;
+  }
+
+  .productCompareModalSingleItem {
+    display: flex;
+    flex-direction: column;
+    width:  500px;
+    height: 750px;
+    margin-left: 30px;
+   align-items: center;
+   justify-content: center;
+  }
+
+  .productCompareModalSingleItem table {
+    margin-top: 20px;
+    font-size: 16px;
+    color : white;
+    overflow: hidden;
+    width: 100%;
+  }
+  .productCompareModalSingleItem  tr, td{
+    border :2px solid gray; 
+  }
+
+  .productCompareModalSingleItem img {
+    max-width: 400px;
+    max-height: 400px;
+    margin-top: 20px;
+  }

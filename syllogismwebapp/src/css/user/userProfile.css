@@ -1,0 +1,33 @@
+.userProfileWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.userProfileUpdateForm {
+    display: flex;
+    flex-direction: column;
+    padding: 45px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.userProfileUpdateForm input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+.userProfileUpdateForm label {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 500;
+}
